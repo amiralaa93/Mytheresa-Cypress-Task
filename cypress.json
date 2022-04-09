@@ -12,10 +12,10 @@
     "reporterOptions": {
         "reportDir": "cypress/reports/mochawesome-report",
         "charts": true,
-        "reportPageTitle": "Mochawesome Report",
+        "reportPageTitle": "Mytheresa Automation Report",
         "embeddedScreenshots": true,
         "inlineAssets": true,
-        "overwrite": false,
+        "overwrite": true,
         "html": true,
         "json": true,
         "timestamp": "mmddyyyy_HHMMss"

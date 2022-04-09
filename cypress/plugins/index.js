@@ -20,6 +20,10 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 }
 
+module.exports = (on, config) => {
+  require('cypress-mochawesome-reporter/plugin')(on);
+}
+
 const xlsx = require('node-xlsx').default; 
 const fs = require('fs'); // for file
 const path = require('path'); // for file path
